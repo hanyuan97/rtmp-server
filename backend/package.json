@@ -6,7 +6,8 @@
   "author": "yuan <lion70332@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "serve": "nodemon ./index.js"
+    "serve": "nodemon ./index.js",
+    "start": "node ./index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
