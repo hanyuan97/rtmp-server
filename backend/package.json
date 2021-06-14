@@ -1,0 +1,18 @@
+{
+  "name": "lte-rtmp-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lion70332/lte-rtmp-api.git",
+  "author": "yuan <lion70332@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
