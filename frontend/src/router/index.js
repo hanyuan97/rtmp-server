@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Main from '../views/Main'
-import Live from '../views/Live'
+// import Main from '../views/Main'
+// import Live from '../views/Live'
 
 Vue.use(VueRouter)
 
@@ -9,12 +9,12 @@ const routes = [
   {
     path: '/',
     name: 'Main',
-    component: Main
+    component: () => import("../views/Main")
   },
   {
     path: '/:id',
     name: 'Live',
-    component: Live
+    component: () => import("../views/Live")
   },
 ]
 

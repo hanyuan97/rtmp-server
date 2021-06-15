@@ -71,12 +71,44 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.super-big {
-  font-size: 200px !important;
+
+@media (max-width: 600px) {
+  .super-big {
+    font-size: 80px !important;
+  }
+  .big {
+    font-size: 40px !important;
+  }
 }
-.big {
-  font-size: 100px !important;
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .super-big {
+    font-size: 120px !important;
+  }
+  .big {
+    font-size: 60px !important;
+  }
 }
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .super-big {
+    font-size: 180px !important;
+  }
+  .big {
+    font-size: 90px !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .super-big {
+    font-size: 200px !important;
+  }
+  .big {
+    font-size: 100px !important;
+  }
+}
+
+
 
 .video-list {
   position: relative;
