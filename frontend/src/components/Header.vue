@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-card tile class="mx-auto overflow-hidden" width="100%">
-      <v-toolbar color="light-blue" dark>
+      <v-toolbar color="light-blue darken-3" dark>
         <v-app-bar-nav-icon @click="getStreamTitle"></v-app-bar-nav-icon>
         <v-toolbar-title style="cursor: pointer" @click="$router.push('/')" >
           <strong>Lab7 - Live Streaming via srsLTE</strong>
