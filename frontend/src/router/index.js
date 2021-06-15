@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Video from '../views/Video'
+import Main from '../views/Main'
+import Live from '../views/Live'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/',
+    name: 'Main',
+    component: Main
+  },
+  {
     path: '/:id',
-    name: 'Video',
-    component: Video
+    name: 'Live',
+    component: Live
   },
 ]
 

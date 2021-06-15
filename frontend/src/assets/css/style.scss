@@ -1,3 +1,133 @@
 .w-100 {
   width: 100%;
 }
+
+.btn-drug {
+  span {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color:transparent;
+    -webkit-animation: rainbow 18s ease infinite;
+    -z-animation: rainbow 18s ease infinite;
+    -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;
+  }
+}
+
+.ranbow-text { 
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color:transparent;
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+  0%{background-position:0% 82%}
+  50%{background-position:100% 19%}
+  100%{background-position:0% 82%}
+}
+
+.rotate {
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+.rotate-fast:hover {
+  -webkit-animation:spin .5s linear infinite;
+  -moz-animation:spin .5s linear infinite;
+  animation:spin .5s linear infinite;
+}
+
+.rotate-reverse:hover {
+  -webkit-animation:spin-reverse 2s linear infinite;
+  -moz-animation:spin-reverse 2s linear infinite;
+  animation:spin-reverse 2s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+@-moz-keyframes spin-reverse { 0% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin-reverse { 0% { -webkit-transform: rotate(360deg); } }
+@keyframes spin-reverse { 0% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.zoom-in-out {
+  position: relative;
+  -webkit-animation: zoom-in-zoom-out 1.7s ease-in-out infinite;
+  -moz-animation: zoom-in-zoom-out 1.7s ease-in-out infinite;
+  -o-animation: zoom-in-zoom-out 1.7s ease-in-out infinite;
+  animation: zoom-in-zoom-out 1.7s ease-in-out infinite;
+}
+
+@-webkit-keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}
+@-moz-keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}
+
+@-o-keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0.7, 0.7);
+  }
+  50% {
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: scale(0.7, 0.7);
+  }
+}

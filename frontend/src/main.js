@@ -5,6 +5,7 @@ import vuetify from './plugins/vuetify'
 
 import http from './plugins/http'
 import "./assets/css/style.scss"
+import store from './store'
 
 Vue.config.productionTip = false
 Vue.prototype.$http = http
@@ -12,5 +13,6 @@ Vue.prototype.$http = http
 new Vue({
   router,
   vuetify,
+  store,
   render: h => h(App)
 }).$mount('#app')
