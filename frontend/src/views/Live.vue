@@ -52,7 +52,7 @@ export default {
       const res = await this.$http.get("stream");
       const playList = res.data;
       this.exist = (playList.findIndex(el => el === this.$route.params.id) !== -1);
-      this.url = `${process.env.VUE_APP_VIDEO_URL || ""}/${this.$route.params.id}.m3u8`;
+      this.url = `${process.env.VUE_APP_VIDEO_URL || "/live"}/${this.$route.params.id}.m3u8`;
     },
     loadVideo() {
       if (this.exist) {
