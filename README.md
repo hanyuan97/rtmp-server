@@ -25,13 +25,13 @@ docker-compose pull
 docker-conpose up -d
 ```
 
-* Stream live content to
+* Stream live content to RTMP Server
 ```
 rtmp://$SERVER_IP:1935/stream/$STREAM_KEY
 ```
 
 ### StreamLabs (mobile devices)
-* Log in with `Custon RTMP Server`
+* Log in with `Custom RTMP Server`
 * URL: `rtmp://$SERVER_IP:1935/stream`
 * Stream Key: `test`
 
